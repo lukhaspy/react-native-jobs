@@ -35,6 +35,7 @@ const useFetch = ({ endpoint, query }: Props) => {
     try {
       // const response = await axios.request<JobPostingResponse>(options);
 
+      // New Data
       setData([
         {
           employer_name: "Full-Stack Developer",
